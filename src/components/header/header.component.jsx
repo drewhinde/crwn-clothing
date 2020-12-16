@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.styles.scss';
-import {Link} from 'react-router-dom';
-import  {ReactComponent as Logo } from '../../assets/crown.svg';
+import { Link } from 'react-router-dom';
+import  { ReactComponent as Logo } from '../../assets/crown.svg';
 
 const Header = () => {
     return (
@@ -11,7 +11,7 @@ const Header = () => {
             </Link>
             <div className='options'>
                 <Link to='/shop' className='option' title='SHOP'>SHOP</Link>
-                <Link to='/shop' className='option' title='CONTACT'>CONTACT</Link>
+                <Link to='/contact' className='option' title='CONTACT'>CONTACT</Link>
             </div>
         </div>
     )
