@@ -17,7 +17,6 @@ const config = {
     if(!userAuth) return;
 
     const userRef = firestore.doc(`users/${userAuth.uid}`);
-    console.log(userRef)
     const snapShot = await userRef.get();
 
     if(!snapShot.exists) {
@@ -32,7 +31,7 @@ const config = {
                 ...additionalData
             })
         } catch (error) {
-            console.log('error creating user', error.message);
+            console.log('FIREBASE UTILS :: Error Creating User', error.message);
         }
         
         
