@@ -24,5 +24,5 @@ store.js
 	use createStore(rootReducer, array of middlewares (spread)
 
 connect()() and mapStateToProps()
-	in react component use connect(mapStateToProps)(Header) to pass state into the component without chaining fro parent component
+	in react component use connect(mapStateToProps)(Header) to pass state into the component without chaining from parent component
 	essentilly we are connecting the component to state
