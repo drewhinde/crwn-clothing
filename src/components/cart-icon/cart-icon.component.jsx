@@ -13,6 +13,8 @@ const CartIcon = ({toggleCartHidden}) => (
   </div>
 );
 
+const mapStateToProps = ({})
+
 const mapDispatchToProps = dispatch => ({
   toggleCartHidden: () => dispatch(toggleCartHidden())
 })
