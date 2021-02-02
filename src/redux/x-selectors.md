@@ -1,6 +1,6 @@
 writing code that gets the whole state object and pulls off a slice / small portion of that state.
 
-effectively a way of caching data from the store remocing the need to keep firing our mapState.... functions.
+effectively a way of caching data from the store removing the need to keep firing our mapState.... functions.
 can save time and effort and removes the need for the component to be re-rendered.
 
 memoization
